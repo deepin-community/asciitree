@@ -1,0 +1,19 @@
+asciitree (0.3.3-3) unstable; urgency=medium
+
+  * Standards version bumped to 4.6.0 (no chenges).
+  * Update watch file.
+
+ -- Antonio Valentino <antonio.valentino@tiscali.it>  Sun, 07 Nov 2021 17:49:30 +0000
+
+asciitree (0.3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload
+
+ -- Anton Gladky <gladk@debian.org>  Wed, 01 Jan 2020 20:51:55 +0100
+
+asciitree (0.3.3-1) unstable; urgency=medium
+
+  * Initial version (Closes: #904443)
+
+ -- Antonio Valentino <antonio.valentino@tiscali.it>  Sat, 05 Oct 2019 18:32:57 +0000

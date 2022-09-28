@@ -1,0 +1,32 @@
+Source: asciitree
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Section: python
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-python,
+               python3-all,
+               python3-pytest,
+               python3-setuptools,
+               python3-sphinx
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/science-team/asciitree
+Vcs-Git: https://salsa.debian.org/science-team/asciitree.git
+Homepage: https://github.com/mbr/asciitree
+Rules-Requires-Root: no
+
+Package: python3-asciitree
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends}
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: Draw tree structures using (ASCII or Unicode) characters
+ This package contains functions to draw a tree structure,
+ similar to the tree Debian package, from arbitrary nested
+ Python data structures, with configurable layout, sets of
+ characters (ASCII or various Unicode line drawing), etc.
+ It includes predefined structure traversal methods for
+ (optionally ordered) dictionaries but allows the user to
+ write their own to traverse custom data structures.
